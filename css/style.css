@@ -348,7 +348,7 @@ body {
 
 @media (max-width: 1366px) {
     .container {
-        min-width: 960px;
+        max-width: 960px;
     }
     .promo {
         background-position: center right -300px;
@@ -373,7 +373,7 @@ body {
     }
     .promo-text {
         font-size: 18px;
-        min-width: 400px;
+        max-width: 400px;
     }
     .card {
         flex-basis: 49%;
